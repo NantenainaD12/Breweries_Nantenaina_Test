@@ -26,7 +26,7 @@ namespace BrasserieTest.Controllers
             return Ok(allBeer);
         }
 
-        [HttpPost]
+        [HttpPost("AddBeer")]
         public IActionResult AddBeer(AddBeerDto addBeerDto)
         {
             // Check if the breweryId exists in the Brewery table
@@ -53,7 +53,22 @@ namespace BrasserieTest.Controllers
             return Ok(beerEntity);
         }
 
+        [HttpDelete("{idBeer:guid}")]
+        public IActionResult DeleteBeer(Guid idBeer, [FromQuery] Guid breweryId)
+        {
+            // Check if the beer exists and has the specified breweryId
+            var beer = dbContext.Beers.FirstOrDefault(b => b.Id == idBeer && b.breweryId == breweryId);
 
+            if (beer is null)
+            {
+                return NotFound("The beer is not defined or does not belong to the specified brewery.");
+            }
+
+            dbContext.Beers.Remove(beer);
+            dbContext.SaveChanges();
+
+            return Ok("Beer deleted successfully.");
+        }
     }
 
 }

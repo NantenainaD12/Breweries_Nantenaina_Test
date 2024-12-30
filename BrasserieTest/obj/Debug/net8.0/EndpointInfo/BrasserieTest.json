@@ -28,7 +28,7 @@
         }
       }
     },
-    "/api/Beer": {
+    "/api/Beer/AddBeer": {
       "post": {
         "tags": [
           "Beer"
@@ -52,6 +52,37 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Beer/{idBeer}": {
+      "delete": {
+        "tags": [
+          "Beer"
+        ],
+        "parameters": [
+          {
+            "name": "idBeer",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "breweryId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

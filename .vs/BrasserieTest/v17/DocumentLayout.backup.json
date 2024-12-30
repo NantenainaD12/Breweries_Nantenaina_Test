@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{DEEC5FF1-4654-4143-A8F8-CBA73B7D5B78}|BrasserieTest\\BrasserieTest.csproj|solutionrelative:brasserietest\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEEC5FF1-4654-4143-A8F8-CBA73B7D5B78}|BrasserieTest\\BrasserieTest.csproj|e:\\fianarana\\m2\\fullsctak\u0026mobil\\grails\\angularfront-end\\breweries_nantenaina_test\\brasserietest\\controllers\\breweryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEEC5FF1-4654-4143-A8F8-CBA73B7D5B78}|BrasserieTest\\BrasserieTest.csproj|solutionrelative:brasserietest\\controllers\\breweryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DEEC5FF1-4654-4143-A8F8-CBA73B7D5B78}|BrasserieTest\\BrasserieTest.csproj|e:\\fianarana\\m2\\fullsctak\u0026mobil\\grails\\angularfront-end\\breweries_nantenaina_test\\brasserietest\\models\\entities\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEEC5FF1-4654-4143-A8F8-CBA73B7D5B78}|BrasserieTest\\BrasserieTest.csproj|solutionrelative:brasserietest\\models\\entities\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEEC5FF1-4654-4143-A8F8-CBA73B7D5B78}|BrasserieTest\\BrasserieTest.csproj|e:\\fianarana\\m2\\fullsctak\u0026mobil\\grails\\angularfront-end\\breweries_nantenaina_test\\brasserietest\\controllers\\breweryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEEC5FF1-4654-4143-A8F8-CBA73B7D5B78}|BrasserieTest\\BrasserieTest.csproj|solutionrelative:brasserietest\\controllers\\breweryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BrewerysController.cs",
               "DocumentMoniker": "E:\\FIANARANA\\M2\\Fullsctak\u0026mobil\\Grails\\AngularFront-End\\Breweries_Nantenaina_Test\\BrasserieTest\\Controllers\\BrewerysController.cs",
               "RelativeDocumentMoniker": "BrasserieTest\\Controllers\\BrewerysController.cs",
               "ToolTip": "E:\\FIANARANA\\M2\\Fullsctak\u0026mobil\\Grails\\AngularFront-End\\Breweries_Nantenaina_Test\\BrasserieTest\\Controllers\\BrewerysController.cs",
               "RelativeToolTip": "BrasserieTest\\Controllers\\BrewerysController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwEsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAA5wEUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T16:35:59.569Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "BrasserieTest\\Controllers\\BeerController.cs",
               "ToolTip": "E:\\FIANARANA\\M2\\Fullsctak\u0026mobil\\Grails\\AngularFront-End\\Breweries_Nantenaina_Test\\BrasserieTest\\Controllers\\BeerController.cs",
               "RelativeToolTip": "BrasserieTest\\Controllers\\BeerController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwBgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T16:30:17.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Beer.cs",
               "DocumentMoniker": "E:\\FIANARANA\\M2\\Fullsctak\u0026mobil\\Grails\\AngularFront-End\\Breweries_Nantenaina_Test\\BrasserieTest\\Models\\Entities\\Beer.cs",
               "RelativeDocumentMoniker": "BrasserieTest\\Models\\Entities\\Beer.cs",
               "ToolTip": "E:\\FIANARANA\\M2\\Fullsctak\u0026mobil\\Grails\\AngularFront-End\\Breweries_Nantenaina_Test\\BrasserieTest\\Models\\Entities\\Beer.cs",
               "RelativeToolTip": "BrasserieTest\\Models\\Entities\\Beer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T16:32:46.997Z",
               "EditorCaption": ""

@@ -278,3 +278,4 @@ E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Tes
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.pdb
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.genruntimeconfig.cache
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\ref\BrasserieTest.dll
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.sourcelink.json

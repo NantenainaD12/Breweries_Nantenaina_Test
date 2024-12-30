@@ -1,16 +1,21 @@
 [
   {
     "ContainingType": "BrasserieTest.Controllers.BeerController",
-    "Method": "AddBeer",
-    "RelativePath": "api/Beer",
-    "HttpMethod": "POST",
+    "Method": "DeleteBeer",
+    "RelativePath": "api/Beer/{idBeer}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "addBeerDto",
-        "Type": "BrasserieTest.Models.AddBeerDto",
+        "Name": "idBeer",
+        "Type": "System.Guid",
         "IsRequired": true
+      },
+      {
+        "Name": "breweryId",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -26,6 +31,22 @@
       {
         "Name": "idBrewery",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.BeerController",
+    "Method": "AddBeer",
+    "RelativePath": "api/Beer/AddBeer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBeerDto",
+        "Type": "BrasserieTest.Models.AddBeerDto",
         "IsRequired": true
       }
     ],
