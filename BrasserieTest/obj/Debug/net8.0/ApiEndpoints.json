@@ -116,6 +116,95 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BrasserieTest.Controllers.StockController",
+    "Method": "UpdateStock",
+    "RelativePath": "api/Stock",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idWholeSaler",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "beerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "stock",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.StockController",
+    "Method": "GetStockByWholeSaler",
+    "RelativePath": "api/Stock/{idWholeSaler}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idWholeSaler",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.StockController",
+    "Method": "AddBeer",
+    "RelativePath": "api/Stock/AddStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idWholeSaler",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "beerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "stock",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.StockController",
+    "Method": "Clientquote",
+    "RelativePath": "api/Stock/ClientQuote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientOrders",
+        "Type": "System.Collections.Generic.List\u00601[[BrasserieTest.Models.ClientOrder, BrasserieTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "idWholeSaler",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BrasserieTest.Controllers.WholesalerBeerController",
     "Method": "AddWholesalerBeer",
     "RelativePath": "api/WholesalerBeer/AddWholesalerBeer",

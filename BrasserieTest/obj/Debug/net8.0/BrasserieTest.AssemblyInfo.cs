@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrasserieTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+730b6a01d776e98b90ca13609f49ead6762182a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+567ac14a767ab01c5e7fb0bf9a65d06a7c20dd17")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrasserieTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrasserieTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

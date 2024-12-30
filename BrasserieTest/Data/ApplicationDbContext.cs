@@ -29,5 +29,6 @@ namespace BrasserieTest.Data
         public DbSet<Beer> Beers { get; set; }
         public DbSet<Wholesaler> Wholesalers { get; set; }
         public DbSet <WholesalerBeer> WholesalersBeers { get; set; }
+        public DbSet<StockWholeSaler> StockWholeSalers { get; set; }
     }
 }
