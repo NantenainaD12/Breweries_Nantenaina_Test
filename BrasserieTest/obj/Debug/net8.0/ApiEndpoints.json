@@ -1,0 +1,134 @@
+[
+  {
+    "ContainingType": "BrasserieTest.Controllers.BeerController",
+    "Method": "AddBeer",
+    "RelativePath": "api/Beer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBeerDto",
+        "Type": "BrasserieTest.Models.AddBeerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.BeerController",
+    "Method": "GetAllBeerByBrewery",
+    "RelativePath": "api/Beer/{idBrewery}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBrewery",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.BrewerysController",
+    "Method": "GetAllBrewerys",
+    "RelativePath": "api/Brewerys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.BrewerysController",
+    "Method": "AddBrewery",
+    "RelativePath": "api/Brewerys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBreweryDto",
+        "Type": "BrasserieTest.Models.AddBreweryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.BrewerysController",
+    "Method": "GetBreweryById",
+    "RelativePath": "api/Brewerys/{idBrewery}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBrewery",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.BrewerysController",
+    "Method": "UpdateBrewery",
+    "RelativePath": "api/Brewerys/{idBrewery}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBrewery",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "addBreweryDto",
+        "Type": "BrasserieTest.Models.AddBreweryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.BrewerysController",
+    "Method": "DeleteBrewery",
+    "RelativePath": "api/Brewerys/{idBrewery}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBrewery",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BrasserieTest.WeatherForecast, BrasserieTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
