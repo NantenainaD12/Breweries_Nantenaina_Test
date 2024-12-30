@@ -11,6 +11,7 @@ namespace BrasserieTest.Models.Entities
 
         [ForeignKey("Brewery")]
         public Guid breweryId { get; set; }
+        public Brewery brewery{get; set;}
 
         public ICollection<WholesalerBeer> WholesalerBeers {  get; set; }
        

@@ -132,27 +132,6 @@
       }
     },
     "/api/Brewerys/{idBrewery}": {
-      "get": {
-        "tags": [
-          "Brewerys"
-        ],
-        "parameters": [
-          {
-            "name": "idBrewery",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
       "put": {
         "tags": [
           "Brewerys"
@@ -250,6 +229,44 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/WholesalerBeer/AddWholesalerBeer": {
+      "post": {
+        "tags": [
+          "WholesalerBeer"
+        ],
+        "parameters": [
+          {
+            "name": "idBeer",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "idWholesaler",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }

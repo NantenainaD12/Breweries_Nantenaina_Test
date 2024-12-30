@@ -80,22 +80,6 @@
   },
   {
     "ContainingType": "BrasserieTest.Controllers.BrewerysController",
-    "Method": "GetBreweryById",
-    "RelativePath": "api/Brewerys/{idBrewery}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idBrewery",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BrasserieTest.Controllers.BrewerysController",
     "Method": "UpdateBrewery",
     "RelativePath": "api/Brewerys/{idBrewery}",
     "HttpMethod": "PUT",
@@ -127,6 +111,32 @@
         "Name": "idBrewery",
         "Type": "System.Guid",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.WholesalerBeerController",
+    "Method": "AddWholesalerBeer",
+    "RelativePath": "api/WholesalerBeer/AddWholesalerBeer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBeer",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "idWholesaler",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

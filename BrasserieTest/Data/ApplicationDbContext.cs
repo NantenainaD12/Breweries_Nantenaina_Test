@@ -8,21 +8,21 @@ namespace BrasserieTest.Data
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<WholesalerBeer>()
-                .HasKey(wb => new { wb.IdBeer, wb.IdWholesaler });
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<WholesalerBeer>()
+        //        .HasKey(wb => new { wb.IdBeer, wb.IdWholesaler });
 
-            modelBuilder.Entity<WholesalerBeer>()
-                .HasOne(wb => wb.Beer)
-                .WithMany(b => b.WholesalerBeers)
-                .HasForeignKey(wb => wb.IdBeer);
+        //    modelBuilder.Entity<WholesalerBeer>()
+        //        .HasOne(wb => wb.Beer)
+        //        .WithMany(b => b.WholesalerBeers)
+        //        .HasForeignKey(wb => wb.IdBeer);
 
-            modelBuilder.Entity<WholesalerBeer>()
-                .HasOne(wb => wb.Wholesaler)
-                .WithMany(w => w.WholesalerBeers)
-                .HasForeignKey(wb => wb.IdWholesaler);
-        }
+        //    modelBuilder.Entity<WholesalerBeer>()
+        //        .HasOne(wb => wb.Wholesaler)
+        //        .WithMany(w => w.WholesalerBeers)
+        //        .HasForeignKey(wb => wb.IdWholesaler);
+        //}
 
 
         public DbSet<Brewery> Brewerys { get; set; }

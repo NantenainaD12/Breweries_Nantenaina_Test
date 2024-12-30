@@ -4,6 +4,7 @@ using BrasserieTest.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BrasserieTest.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241230174402_feature4 migration")]
+    partial class feature4migration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -81,54 +84,48 @@ namespace BrasserieTest.Migrations
 
             modelBuilder.Entity("BrasserieTest.Models.Entities.WholesalerBeer", b =>
                 {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("BeerId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
                     b.Property<Guid>("IdBeer")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("IdWholesaler")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("WholesalerId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdBeer", "IdWholesaler");
 
-                    b.HasIndex("BeerId");
-
-                    b.HasIndex("WholesalerId");
+                    b.HasIndex("IdWholesaler");
 
                     b.ToTable("WholesalersBeers");
                 });
 
             modelBuilder.Entity("BrasserieTest.Models.Entities.Beer", b =>
                 {
-                    b.HasOne("BrasserieTest.Models.Entities.Brewery", "brewery")
+                    b.HasOne("BrasserieTest.Models.Entities.Brewery", null)
                         .WithMany("beers")
                         .HasForeignKey("breweryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("brewery");
                 });
 
             modelBuilder.Entity("BrasserieTest.Models.Entities.WholesalerBeer", b =>
                 {
-                    b.HasOne("BrasserieTest.Models.Entities.Beer", null)
+                    b.HasOne("BrasserieTest.Models.Entities.Beer", "Beer")
                         .WithMany("WholesalerBeers")
-                        .HasForeignKey("BeerId");
+                        .HasForeignKey("IdBeer")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("BrasserieTest.Models.Entities.Wholesaler", null)
+                    b.HasOne("BrasserieTest.Models.Entities.Wholesaler", "Wholesaler")
                         .WithMany("WholesalerBeers")
-                        .HasForeignKey("WholesalerId");
+                        .HasForeignKey("IdWholesaler")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Beer");
+
+                    b.Navigation("Wholesaler");
                 });
 
             modelBuilder.Entity("BrasserieTest.Models.Entities.Beer", b =>

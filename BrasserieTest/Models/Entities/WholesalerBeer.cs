@@ -1,16 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BrasserieTest.Models.Entities
 {
     public class WholesalerBeer
     {
-        [Key]
-        public Guid IdBeer { get; set; }
-        public Beer Beer { get; set; }
+        public Guid Id { get; set; }
 
-        [Key]
+        [ForeignKey("Beer")]
+        public Guid IdBeer { get; set; }
+
+
+        [ForeignKey("Wholesaler")]
         public Guid IdWholesaler { get; set; }
-        public Wholesaler Wholesaler { get; set; }
 
         public DateTime Date { get; set; }
     }
