@@ -205,6 +205,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BrasserieTest.Controllers.WholeSalerController",
+    "Method": "GetAllWholeSaler",
+    "RelativePath": "api/WholeSaler",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BrasserieTest.Controllers.WholeSalerController",
+    "Method": "AddWholeSaler",
+    "RelativePath": "api/WholeSaler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wholeSalerName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BrasserieTest.Controllers.WholesalerBeerController",
     "Method": "AddWholesalerBeer",
     "RelativePath": "api/WholesalerBeer/AddWholesalerBeer",

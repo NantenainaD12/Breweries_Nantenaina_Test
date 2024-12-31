@@ -38,18 +38,6 @@ namespace BrasserieTest.Controllers
             return Ok(breweryEntity);
         }
 
-        //[HttpGet]
-        //[Route("{idBrewery:guid}")]
-        //public IActionResult GetBreweryById(Guid idBrewery)
-        //{
-        //    var brewery = dbContext.Brewerys.Find(idBrewery);
-        //    if (brewery is null)
-        //    {
-        //        return NotFound("empty result");
-        //    }
-        //    return Ok(brewery);
-        //}
-
         [HttpPut]
         [Route("{idBrewery:guid}")]
         public IActionResult UpdateBrewery(Guid idBrewery, AddBreweryDto addBreweryDto)

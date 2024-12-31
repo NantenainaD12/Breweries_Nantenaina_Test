@@ -382,6 +382,37 @@
         }
       }
     },
+    "/api/WholeSaler": {
+      "get": {
+        "tags": [
+          "WholeSaler"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "WholeSaler"
+        ],
+        "parameters": [
+          {
+            "name": "wholeSalerName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/WholesalerBeer/AddWholesalerBeer": {
       "post": {
         "tags": [

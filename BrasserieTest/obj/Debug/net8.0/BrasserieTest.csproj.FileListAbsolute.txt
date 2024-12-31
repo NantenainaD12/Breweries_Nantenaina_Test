@@ -148,6 +148,7 @@ E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Tes
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\BrasserieTest.pdb
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Azure.Core.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Azure.Identity.dll
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Castle.Core.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Humanizer.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -173,6 +174,7 @@ E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Tes
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Moq.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -190,6 +192,10 @@ E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Tes
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\System.Security.Permissions.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\xunit.abstractions.dll
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\xunit.assert.dll
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\xunit.core.dll
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\xunit.execution.dotnet.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -261,6 +267,7 @@ E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Tes
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.csproj.CoreCompileInputs.cache
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.MvcApplicationPartsAssemblyInfo.cs
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.MvcApplicationPartsAssemblyInfo.cache
+E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.sourcelink.json
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\scopedcss\bundle\BrasserieTest.styles.css
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\staticwebassets.build.json
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\staticwebassets.development.json
@@ -278,4 +285,3 @@ E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Tes
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.pdb
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.genruntimeconfig.cache
 E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\ref\BrasserieTest.dll
-E:\FIANARANA\M2\Fullsctak&mobil\Grails\AngularFront-End\Breweries_Nantenaina_Test\BrasserieTest\obj\Debug\net8.0\BrasserieTest.sourcelink.json
